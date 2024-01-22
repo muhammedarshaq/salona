@@ -1,11 +1,14 @@
 import React from 'react'
 import logo from '../../../assets/logo.png'
+import bg from '../../../assets/bg.png'
 import Button from '../../Button'
 
 const Welcome = () => {
     return (
         <>
-            <div class="h-screen bg-[#e0d2fc] w-full flex flex-col justify-center items-center p-10">
+            <div className="h-screen bg-cover bg-center w-full flex flex-col justify-center items-center p-10" style={{
+                backgroundImage: `url(${bg})`,
+            }}>
                 <div className="flex flex-col justify-center items-center">
                     <img src={logo} alt="logo" className='w-[225px]' />
                     <br />

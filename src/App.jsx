@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Welcome from './components/views/Welcome/Welcome'
+import Signin from './components/auth/Signin'
+import Navbar from './components/layout/Navbar'
 
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
 
   return (
     <>
-      <Welcome />
+      {/* <Welcome /> */}
+      {/* <Navbar /> */}
+      <Signin />
     </>
   )
 }
